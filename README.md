@@ -32,7 +32,24 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set up your API key
-- 1. Create and insert your own API key via Google AI Studio[a link([https://aistudio.google.com/app/apikey])
+- 1. Create and insert your own API key via Google AI Studio (https://aistudio.google.com/app/apikey).
+- 2. Replace the placeholder `ENTER_YOUR_API_KEY` in `utils.py` with your own API key.
+```sh
+# In utils.py
+genai.configure(api_key="YOUR_API_KEY")
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
+```
+
+### 5. Running the Application
+Run on your folder with repository directory (on Terminal or Bash) by using the following command:
+```sh
+streamlit run model.py
+```
+
+#### Usage
+- Upload a CSV file using the sidebar file uploader.
+- Enter your message or query in the text input field.
+- The application will process the CSV file and provide a response based on the Gemini Pro model.
 
 
 

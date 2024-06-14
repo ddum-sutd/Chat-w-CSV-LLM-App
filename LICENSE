@@ -1,0 +1,10 @@
+### Example `requirements.txt`
+
+If you don't have a `requirements.txt`, here's an example based on the dependencies found in the files:
+
+```txt
+streamlit
+langchain
+chroma
+google-generative-ai
+pandas

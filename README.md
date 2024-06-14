@@ -18,15 +18,18 @@ This repository contains a Streamlit application that allows users to chat with 
 ```sh
 git clone <repository-url>
 cd <repository-directory>
+```
 
 ### 2. Create a virtual environment
 ```sh
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
 ### 3. Install the dependencies
 ```sh
 pip install -r requirements.txt
+```
 
 ### 4. Set up your API key
 - 1. Create and insert your own API key via Google AI Studio[a link([https://aistudio.google.com/app/apikey])
